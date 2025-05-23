@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>DataTrack</h1>
+            </div>
+            <div class="user-info">
+                <span class="user-name">John Doe</span>
+                <div class="user-avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="dashboard">
+            <div class="sidebar">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                        <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                        <li><a href="#"><i class="fas fa-tasks"></i> Projects</a></li>
+                        <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <main>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-value" id="users-count">0</div>
+                        <div class="stat-label">Active Users</div>
+                        <div class="stat-change up" id="users-change">+0%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="revenue-count">$0</div>
+                        <div class="stat-label">Revenue</div>
+                        <div class="stat-change up" id="revenue-change">+0%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="projects-count">0</div>
+                        <div class="stat-label">Projects</div>
+                        <div class="stat-change down" id="projects-change">-0%</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="tasks-count">0</div>
+                        <div class="stat-label">Tasks</div>
+                        <div class="stat-change up" id="tasks-change">+0%</div>
+                    </div>
+                </div>
+
+                <div class="charts-container">
+                    <div class="chart-card">
+                        <h3>Weekly Activity</h3>
+                        <div class="chart" id="activity-chart">
+                            <div class="chart-placeholder">
+                                <div class="bar-chart">
+                                    <div class="bar" style="height: 60%"></div>
+                                    <div class="bar" style="height: 80%"></div>
+                                    <div class="bar" style="height: 40%"></div>
+                                    <div class="bar" style="height: 70%"></div>
+                                    <div class="bar" style="height: 50%"></div>
+                                    <div class="bar" style="height: 90%"></div>
+                                    <div class="bar" style="height: 30%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Performance Metrics</h3>
+                        <div class="chart" id="performance-chart">
+                            <div class="chart-placeholder">
+                                <div class="line-chart">
+                                    <svg viewBox="0 0 100 50">
+                                        <polyline points="0,40 15,35 30,25 45,30 60,20 75,15 90,10" fill="none" stroke="#4CAF50" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-activity">
+                    <h3>Recent Activity</h3>
+                    <div class="activity-list" id="activity-list">
+                        <!-- Activity items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 DataTrack. All rights reserved.</p>
+        <p>Last updated: <span id="last-updated">Loading...</span></p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 

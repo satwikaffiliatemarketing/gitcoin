@@ -1,0 +1,66 @@
+{
+  "lastUpdated": "2023-08-15T12:30:45Z",
+  "stats": {
+    "users": {
+      "count": 8754,
+      "change": 12.5
+    },
+    "revenue": {
+      "amount": 87500,
+      "change": 8.3
+    },
+    "projects": {
+      "count": 342,
+      "change": -2.1
+    },
+    "tasks": {
+      "count": 1254,
+      "change": 15.7
+    }
+  },
+  "activities": [
+    {
+      "type": "user",
+      "title": "New user registered",
+      "timestamp": "2023-08-15T10:24:32Z"
+    },
+    {
+      "type": "project",
+      "title": "Project 'Marketing Campaign' created",
+      "timestamp": "2023-08-15T09:15:22Z"
+    },
+    {
+      "type": "task",
+      "title": "Task 'Update documentation' completed",
+      "timestamp": "2023-08-15T08:45:11Z"
+    },
+    {
+      "type": "payment",
+      "title": "Payment of $1,250 received",
+      "timestamp": "2023-08-14T16:30:45Z"
+    },
+    {
+      "type": "alert",
+      "title": "Server load reached 85%",
+      "timestamp": "2023-08-14T14:22:38Z"
+    }
+  ],
+  "weeklyActivity": [
+    { "day": "Mon", "value": 65 },
+    { "day": "Tue", "value": 82 },
+    { "day": "Wed", "value": 43 },
+    { "day": "Thu", "value": 75 },
+    { "day": "Fri", "value": 52 },
+    { "day": "Sat", "value": 94 },
+    { "day": "Sun", "value": 33 }
+  ],
+  "performanceMetrics": [
+    { "date": "2023-08-09", "value": 40 },
+    { "date": "2023-08-10", "value": 35 },
+    { "date": "2023-08-11", "value": 25 },
+    { "date": "2023-08-12", "value": 30 },
+    { "date": "2023-08-13", "value": 20 },
+    { "date": "2023-08-14", "value": 15 },
+    { "date": "2023-08-15", "value": 10 }
+  ]
+} 
