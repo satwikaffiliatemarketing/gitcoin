@@ -1,24 +1,29 @@
 {
-  "lastUpdated": "2025-09-03T00:00:51.681Z",
+  "lastUpdated": "2025-09-04T00:01:03.495Z",
   "stats": {
     "users": {
-      "count": 110611,
-      "change": -0.6
+      "count": 114525,
+      "change": 6.4
     },
     "revenue": {
-      "amount": 413267,
-      "change": 9.1
+      "amount": 423167,
+      "change": -0.7
     },
     "projects": {
-      "count": 383,
-      "change": 4
+      "count": 384,
+      "change": -4.8
     },
     "tasks": {
-      "count": 2812,
-      "change": -0.4
+      "count": 2802,
+      "change": -0.8
     }
   },
   "activities": [
+    {
+      "type": "payment",
+      "title": "Payment received",
+      "timestamp": "2025-09-04T00:01:03.495Z"
+    },
     {
       "type": "alert",
       "title": "Invoice generated",
@@ -38,48 +43,39 @@
       "type": "task",
       "title": "Task completed",
       "timestamp": "2025-08-31T00:00:29.841Z"
-    },
-    {
-      "type": "project",
-      "title": "Project milestone reached",
-      "timestamp": "2025-08-30T00:00:08.354Z"
     }
   ],
   "weeklyActivity": [
     {
       "day": "Mon",
-      "value": 20
-    },
-    {
-      "day": "Tue",
-      "value": 87
-    },
-    {
-      "day": "Wed",
-      "value": 37
-    },
-    {
-      "day": "Thu",
-      "value": 42
-    },
-    {
-      "day": "Fri",
-      "value": 50
-    },
-    {
-      "day": "Sat",
       "value": 11
     },
     {
+      "day": "Tue",
+      "value": 86
+    },
+    {
+      "day": "Wed",
+      "value": 36
+    },
+    {
+      "day": "Thu",
+      "value": 34
+    },
+    {
+      "day": "Fri",
+      "value": 54
+    },
+    {
+      "day": "Sat",
+      "value": 10
+    },
+    {
       "day": "Sun",
-      "value": 72
+      "value": 67
     }
   ],
   "performanceMetrics": [
-    {
-      "date": "2023-11-23",
-      "value": 43
-    },
     {
       "date": "2023-11-24",
       "value": 21
@@ -103,6 +99,10 @@
     {
       "date": "2023-11-29",
       "value": 11
+    },
+    {
+      "date": "2023-11-30",
+      "value": 32
     }
   ]
 }
