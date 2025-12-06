@@ -1,24 +1,29 @@
 {
-  "lastUpdated": "2025-12-05T00:00:38.839Z",
+  "lastUpdated": "2025-12-06T00:00:23.935Z",
   "stats": {
     "users": {
-      "count": 1287456,
-      "change": 11.8
+      "count": 1320697,
+      "change": 11.6
     },
     "revenue": {
-      "amount": 1825239,
-      "change": 2.2
+      "amount": 1857959,
+      "change": 5.3
     },
     "projects": {
       "count": 415,
-      "change": -2.9
+      "change": 1.8
     },
     "tasks": {
-      "count": 4198,
-      "change": -3.6
+      "count": 4232,
+      "change": 1.9
     }
   },
   "activities": [
+    {
+      "type": "task",
+      "title": "System alert",
+      "timestamp": "2025-12-06T00:00:23.935Z"
+    },
     {
       "type": "message",
       "title": "Project created",
@@ -38,48 +43,39 @@
       "type": "task",
       "title": "User updated profile",
       "timestamp": "2025-12-02T00:00:20.099Z"
-    },
-    {
-      "type": "alert",
-      "title": "Project milestone reached",
-      "timestamp": "2025-12-01T00:00:24.281Z"
     }
   ],
   "weeklyActivity": [
     {
       "day": "Mon",
-      "value": 51
-    },
-    {
-      "day": "Tue",
-      "value": 12
-    },
-    {
-      "day": "Wed",
-      "value": 22
-    },
-    {
-      "day": "Thu",
-      "value": 17
-    },
-    {
-      "day": "Fri",
-      "value": 12
-    },
-    {
-      "day": "Sat",
       "value": 52
     },
     {
+      "day": "Tue",
+      "value": 10
+    },
+    {
+      "day": "Wed",
+      "value": 25
+    },
+    {
+      "day": "Thu",
+      "value": 16
+    },
+    {
+      "day": "Fri",
+      "value": 10
+    },
+    {
+      "day": "Sat",
+      "value": 50
+    },
+    {
       "day": "Sun",
-      "value": 24
+      "value": 28
     }
   ],
   "performanceMetrics": [
-    {
-      "date": "2024-02-23",
-      "value": 10
-    },
     {
       "date": "2024-02-24",
       "value": 41
@@ -103,6 +99,10 @@
     {
       "date": "2024-02-29",
       "value": 16
+    },
+    {
+      "date": "2024-03-01",
+      "value": 42
     }
   ]
 }
