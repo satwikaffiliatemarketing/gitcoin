@@ -1,24 +1,29 @@
 {
-  "lastUpdated": "2025-12-26T00:00:08.647Z",
+  "lastUpdated": "2025-12-27T00:00:30.155Z",
   "stats": {
     "users": {
-      "count": 2025563,
-      "change": 4
+      "count": 2056731,
+      "change": 2
     },
     "revenue": {
-      "amount": 2444573,
-      "change": 8.6
+      "amount": 2493508,
+      "change": 9.6
     },
     "projects": {
-      "count": 422,
-      "change": -4
+      "count": 423,
+      "change": 3.2
     },
     "tasks": {
-      "count": 4510,
-      "change": 13.6
+      "count": 4525,
+      "change": 3.3
     }
   },
   "activities": [
+    {
+      "type": "user",
+      "title": "Invoice generated",
+      "timestamp": "2025-12-27T00:00:30.155Z"
+    },
     {
       "type": "alert",
       "title": "Project created",
@@ -38,48 +43,39 @@
       "type": "payment",
       "title": "Task completed",
       "timestamp": "2025-12-23T00:00:00.781Z"
-    },
-    {
-      "type": "alert",
-      "title": "User updated profile",
-      "timestamp": "2025-12-22T00:00:01.565Z"
     }
   ],
   "weeklyActivity": [
     {
       "day": "Mon",
-      "value": 71
-    },
-    {
-      "day": "Tue",
-      "value": 62
-    },
-    {
-      "day": "Wed",
-      "value": 21
-    },
-    {
-      "day": "Thu",
-      "value": 34
-    },
-    {
-      "day": "Fri",
-      "value": 11
-    },
-    {
-      "day": "Sat",
       "value": 76
     },
     {
+      "day": "Tue",
+      "value": 52
+    },
+    {
+      "day": "Wed",
+      "value": 16
+    },
+    {
+      "day": "Thu",
+      "value": 39
+    },
+    {
+      "day": "Fri",
+      "value": 10
+    },
+    {
+      "day": "Sat",
+      "value": 73
+    },
+    {
       "day": "Sun",
-      "value": 23
+      "value": 14
     }
   ],
   "performanceMetrics": [
-    {
-      "date": "2024-03-15",
-      "value": 22
-    },
     {
       "date": "2024-03-16",
       "value": 36
@@ -103,6 +99,10 @@
     {
       "date": "2024-03-21",
       "value": 30
+    },
+    {
+      "date": "2024-03-22",
+      "value": 44
     }
   ]
 }
